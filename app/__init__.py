@@ -10,7 +10,7 @@ def create_app():
     app = Flask(__name__)
     app.config.from_object(Config)
 
-    CORS(app, resources={r"/*": {"origins": "http://localhost:4200"}})
+    CORS(app, origins=['https://hospital-bd-3b741.web.app'])
 
     from app.models.pacientes_model import Pacientes
     from app.models.doctores_model import Doctores
