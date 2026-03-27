@@ -1,0 +1,11 @@
+Flask 
+Flask-SQLAlchemy 
+Flask-Migrate 
+python-dotenv 
+Flask-JWT-Extended 
+marshmallow 
+marshmallow-sqlalchemy 
+Werkzeug 
+flask-cors 
+pymysql
+cryptography
